@@ -1,0 +1,11 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+# never commit signing material or local-only settings
+signing/
+*.keystore
+*.apk

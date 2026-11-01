@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Material You adaptive launcher icon (Android 8.0+): the same blue
+     background + arrows design, now layered so the launcher can mask it and
+     tint the themed variant with the user's system color palette. -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_launcher_bg" />
+    <foreground android:drawable="@drawable/ic_launcher_fg" />
+    <!-- Android 13+ themed icon: drawn from the alpha of the fg layer. -->
+    <monochrome android:drawable="@drawable/ic_launcher_fg" />
+</adaptive-icon>

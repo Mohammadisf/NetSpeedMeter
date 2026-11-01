@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">نت‌اسپید متر</string>
+    <string name="down_label">▼ دانلود</string>
+    <string name="up_label">▲ آپلود</string>
+    <string name="service_toggle">پایش زنده سرعت</string>
+    <string name="channel_description">اعلان سرعت زنده — بی‌صدا و همیشه بالای فهرست اعلان‌ها</string>
+    <string name="boot_toggle">شروع خودکار پس از روشن شدن دوباره</string>
+    <string name="close">بستن</string>
+
+    <!-- منوی گزینه‌های بیشتر -->
+    <string name="menu_more">گزینه‌های بیشتر</string>
+    <string name="menu_theme">پوسته</string>
+    <string name="theme_system">پیش‌فرض سیستم</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تیره</string>
+    <string name="menu_language">زبان</string>
+    <string name="menu_accent">رنگ مکمل</string>
+    <string name="accent_blue">آبی</string>
+    <string name="accent_green">سبز</string>
+    <string name="accent_purple">بنفش</string>
+    <string name="accent_orange">نارنجی</string>
+    <string name="accent_red">قرمز</string>
+    <string name="accent_teal">فیروزه‌ای</string>
+
+    <!-- درباره -->
+    <string name="menu_about">درباره</string>
+    <string name="about_version">نسخه %1$s</string>
+    <string name="about_developer">توسعه‌دهنده: NT Software</string>
+
+    <!-- Usage table (reference app main screen) -->
+    <string name="usage_title">مصرف داده</string>
+    <string name="col_date">تاریخ</string>
+    <string name="col_mobile">موبایل</string>
+    <string name="col_wifi">وای‌فای</string>
+    <string name="col_total">مجموع</string>
+    <string name="today">امروز</string>
+    <string name="last7">۷ روز گذشته</string>
+    <string name="last30">۳۰ روز گذشته</string>
+    <string name="this_month">این ماه</string>
+    <string name="show_previous_days">نمایش روزهای پیشین ▾</string>
+    <string name="hide_previous_days">پنهان کردن روزهای پیشین ▴</string>
+
+    <!-- Notification lines -->
+    <string name="notif_mobile">موبایل: %1$s</string>
+    <string name="notif_wifi">وای‌فای: %1$s</string>
+    <string name="notif_split">موبایل: %1$s · وای‌فای: %2$s</string>
+    <string name="notif_warning_mobile">هشدار: %1$s داده موبایل مصرف شده این ماه</string>
+    <string name="notif_warning_wifi">هشدار: %1$s داده وای‌فای مصرف شده این ماه</string>
+    <string name="notif_warning_combined">هشدار: %1$s داده مصرف شده این ماه (وای‌فای + موبایل)</string>
+
+    <!-- Data limits (three types) -->
+    <string name="limit_button">تعیین سقف‌های مصرف</string>
+    <string name="limit_message">سقف ماهانه مصرف داده، بر حسب مگابایت. هنگام عبور از هر سقف، در اعلان هشدار می‌بینید؛ اگر قطع خودکار فعال باشد، اتصال مربوطه در صورت امکان هم خاموش می‌شود. برای غیرفعال کردن هر سقف، آن را خالی یا 0 بگذارید.</string>
+    <string name="limit_wifi_label">فقط وای‌فای (مگابایت)</string>
+    <string name="limit_mobile_label">فقط داده موبایل (مگابایت)</string>
+    <string name="limit_combined_label">مجموع وای‌فای + موبایل (مگابایت)</string>
+    <string name="limit_hint">مگابایت در ماه</string>
+    <string name="limit_name_wifi">وای‌فای</string>
+    <string name="limit_name_mobile">موبایل</string>
+    <string name="limit_name_combined">وای‌فای + موبایل</string>
+    <string name="limit_line">%1$s: مصرف %2$s · سقف %3$s</string>
+    <string name="limit_summary_off">هیچ سقف مصرفی تعیین نشده</string>
+
+    <!-- Reset stats -->
+    <string name="reset_button">صفر کردن آمار</string>
+    <string name="reset_message">همه تاریخچه مصرف داده پاک شود؟ این کار برگشت‌پذیر نیست.</string>
+
+    <!-- Bottom sheet options -->
+    <string name="options">گزینه‌ها</string>
+    <string name="hide_lockscreen_notif">پنهان کردن اعلان در صفحه قفل</string>
+    <string name="show_updown">نمایش سرعت دانلود/آپلود</string>
+    <string name="speed_units">واحد سرعت</string>
+    <string name="speed_unit_bytes">بایت (B/s · KB/s · MB/s)</string>
+    <string name="speed_unit_bits">بیت (bit/s · kbit/s · Mbit/s)</string>
+    <string name="speed_unit_bytes_short">بایت</string>
+    <string name="speed_unit_bits_short">بیت</string>
+    <string name="alerts_off">خاموش</string>
+
+    <!-- Usage alerts -->
+    <string name="usage_alerts">تنظیم هشدارهای مصرف</string>
+    <string name="usage_alerts_channel">هشدارهای مصرف</string>
+    <string name="alerts_message">وقتی مصرف داده در بازه زمانی انتخابی از سقف بیشتر شود، اعلان نشان داده می‌شود. برای غیرفعال کردن هشدار، فیلد را خالی یا 0 بگذارید.</string>
+    <string name="alert_limit_label">سقف مصرف (مگابایت)</string>
+    <string name="alert_period_label">بازه زمانی (ساعت)</string>
+    <string name="alerts_value">%1$d مگابایت / %2$d ساعت</string>
+    <string name="alert_notif_title">هشدار مصرف</string>
+    <string name="alert_notif_text">مصرف %1$s در %2$s گذشته — سقف پیموده شده</string>
+    <string name="alert_period_hours">%1$d ساعت</string>
+
+    <!-- Usage chart -->
+    <string name="usage_chart">نمودار مصرف</string>
+    <string name="chart_summary">مجموع %1$s · موبایل %2$s · وای‌فای %3$s</string>
+    <string name="chart_average">میانگین روزانه: %1$s</string>
+    <string name="chart_empty">در این بازه مصرفی ثبت نشده</string>
+
+    <!-- Data limit enforcement (automatic disconnection) -->
+    <string name="enforce_limits">قطع خودکار اتصال هنگام عبور از سقف مصرف</string>
+    <string name="enforce_unsupported_note">در این دستگاه امکان قطع مستقیم اتصال وجود ندارد — اندروید اجازه نمی‌دهد برنامه‌ها اتصال‌های شبکه را مستقیماً روشن/خاموش کنند. پس از عبور از سقف، برنامه اینترنت دستگاه را با کلید قطع داخلی (VPN) مسدود می‌کند تا چیزی نتواند به مصرف داده ادامه دهد. یک بار برای آن اجازه اتصال VPN گرفته می‌شود.</string>
+    <string name="limit_notif_title">سقف مصرف پیموده شد</string>
+    <string name="limit_notif_text">سقف %1$s پیموده شد — مصرف %2$s از %3$s</string>
+    <string name="limit_disconnected"> اتصال به‌صورت خودکار قطع شد.</string>
+    <string name="limit_blocked_vpn"> اینترنت به‌صورت خودکار مسدود شد (کلید قطع داخلی).</string>
+    <string name="limit_disconnect_failed"> در این دستگاه قطع خودکار ممکن نبود — لطفاً دستی قطع کنید.</string>
+    <string name="limit_monitor_hint">پایش تا زمانی که سرویس سرعت فعال است ادامه دارد. هر سقف پس از پایان بازه‌اش دوباره فعال می‌شود.</string>
+
+    <!-- Enforcement kill-switch VPN -->
+    <string name="enforce_vpn_channel">اجرای سقف مصرف</string>
+    <string name="enforce_vpn_session">اجرای سقف مصرف NetSpeed Meter</string>
+    <string name="enforce_vpn_notif_title">اینترنت مسدود شد — سقف مصرف پیموده شد</string>
+    <string name="enforce_vpn_notif_text">سقف مصرفی پیموده شده است. اینترنت تا زمانی که «بازگرداندن» را بزنید مسدود می‌ماند.</string>
+    <string name="restore_internet">بازگرداندن اینترنت</string>
+
+    <!-- Hotspot limit -->
+    <string name="hotspot_limit">تعیین سقف‌های هات‌اسپات</string>
+    <string name="hotspot_limit_label">سقف مصرف هات‌اسپات (مگابایت)</string>
+    <string name="hotspot_message">وقتی دستگاه‌های متصل به هات‌اسپات شما در بازه زمانی انتخابی بیش از سقف مصرف کنند، اعلان هشدار نشان داده می‌شود. برای غیرفعال کردن، فیلد را خالی یا 0 بگذارید.</string>
+    <string name="hotspot_alert_title">هشدار مصرف هات‌اسپات</string>
+    <string name="hotspot_usage_note">شمارنده‌های مصرف هات‌اسپات در برخی نسخه‌های اندروید (مثلاً اندروید ۱۶) از برنامه‌ها پنهان است؛ برنامه در آن حالت مصرف هات‌اسپات را از طریق «دسترسی به داده مصرف» سیستم می‌خواند. یک بار اجازه آن از شما گرفته می‌شود.</string>
+    <string name="hotspot_alert_text">مصرف %1$s توسط دستگاه‌های متصل در %2$s گذشته — از سقف %3$s عبور شد</string>
+    <string name="enforce_hotspot">خاموش کردن خودکار هات‌اسپات هنگام عبور از سقف مصرف</string>
+    <string name="enforce_hotspot_note">خاموش کردن خودکار هات‌اسپات در این دستگاه در دسترس نیست — اندروید اجازه نمی‌دهد برنامه‌ها نقطه دسترسی را مستقیماً روشن/خاموش کنند. پس از عبور از سقف، برنامه اینترنت دستگاه‌های متصل را با کلید قطع داخلی (VPN) قطع می‌کند و همچنین خاموش کردن مستقیم را هم امتحان می‌کند؛ نتیجه دقیق در اعلان اعلام می‌شود.</string>
+    <string name="limit_hotspot_blocked_vpn"> اینترنت دستگاه‌های متصل به هات‌اسپات به‌صورت خودکار قطع شد (کلید قطع داخلی)؛ اندروید اجازه خاموش کردن خودِ نقطه دسترسی را نمی‌دهد.</string>
+</resources>

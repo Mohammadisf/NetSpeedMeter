@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Down arrow (download), tinted white by the notification system -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M11,3 h2 v6 h4 l-5,6 -5,-6 h4 z" />
+
+    <!-- Up arrow (upload) -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M13,21 h-2 v-6 h-4 l5,-6 5,6 h-4 z" />
+</vector>

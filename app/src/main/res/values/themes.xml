@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme. The default accent is Blue: colorPrimary is pinned here so
+         the app never falls back to the Material baseline purple. -->
+    <style name="Theme.NetSpeed" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1565C0</item>
+        <item name="colorSecondary">#1565C0</item>
+    </style>
+
+    <!-- Accent variants, selected from the ⋮ menu and applied with
+         Activity.setTheme() before setContentView. Each overrides the
+         primary/secondary color; DayNight keeps light/dark working. -->
+    <style name="Theme.NetSpeed.Green" parent="Theme.NetSpeed">
+        <item name="colorPrimary">#2E7D32</item>
+        <item name="colorSecondary">#2E7D32</item>
+    </style>
+
+    <style name="Theme.NetSpeed.Purple" parent="Theme.NetSpeed">
+        <item name="colorPrimary">#6A1B9A</item>
+        <item name="colorSecondary">#6A1B9A</item>
+    </style>
+
+    <style name="Theme.NetSpeed.Orange" parent="Theme.NetSpeed">
+        <item name="colorPrimary">#EF6C00</item>
+        <item name="colorSecondary">#EF6C00</item>
+    </style>
+
+    <style name="Theme.NetSpeed.Red" parent="Theme.NetSpeed">
+        <item name="colorPrimary">#C62828</item>
+        <item name="colorSecondary">#C62828</item>
+    </style>
+
+    <style name="Theme.NetSpeed.Teal" parent="Theme.NetSpeed">
+        <item name="colorPrimary">#00695C</item>
+        <item name="colorSecondary">#00695C</item>
+    </style>
+</resources>

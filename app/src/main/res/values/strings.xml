@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetSpeed Meter</string>
+    <string name="down_label">▼ Download</string>
+    <string name="up_label">▲ Upload</string>
+    <string name="service_toggle">Live speed tracking</string>
+    <string name="channel_description">Live speed notification — silent, pinned to the top of the notification list</string>
+    <string name="boot_toggle">Start automatically after reboot</string>
+    <string name="close">Close</string>
+
+    <!-- Top bar overflow menu -->
+    <string name="menu_more">More options</string>
+    <string name="menu_theme">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_accent">Accent color</string>
+    <string name="accent_blue">Blue</string>
+    <string name="accent_green">Green</string>
+    <string name="accent_purple">Purple</string>
+    <string name="accent_orange">Orange</string>
+    <string name="accent_red">Red</string>
+    <string name="accent_teal">Teal</string>
+    <string name="menu_about">About</string>
+    <string name="about_brand">NetSpeed Meter</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_developer">Developer: NT Software</string>
+
+    <!-- Usage table (reference app main screen) -->
+    <string name="usage_title">Data usage</string>
+    <string name="col_date">Date</string>
+    <string name="col_mobile">Mobile</string>
+    <string name="col_wifi">WiFi</string>
+    <string name="col_total">Total</string>
+    <string name="today">Today</string>
+    <string name="last7">Last 7 Days</string>
+    <string name="last30">Last 30 Days</string>
+    <string name="this_month">This Month</string>
+    <string name="show_previous_days">Show previous days ▾</string>
+    <string name="hide_previous_days">Hide previous days ▴</string>
+
+    <!-- Notification lines -->
+    <string name="notif_mobile">Mobile: %1$s</string>
+    <string name="notif_wifi">WiFi: %1$s</string>
+    <string name="notif_split">Mobile: %1$s · WiFi: %2$s</string>
+    <string name="notif_warning_mobile">Warning: %1$s mobile data used this month</string>
+    <string name="notif_warning_wifi">Warning: %1$s Wi-Fi data used this month</string>
+    <string name="notif_warning_combined">Warning: %1$s data used this month (WiFi + mobile)</string>
+
+    <!-- Data limits (three types) -->
+    <string name="limit_button">Set data limits</string>
+    <string name="limit_message">Monthly data limits in MB. You will see a warning in the notification when a limit is passed. With automatic disconnection enabled, the matching connection is also switched off when possible. Leave a field empty or 0 to disable that limit.</string>
+    <string name="limit_wifi_label">Wi-Fi only (MB)</string>
+    <string name="limit_mobile_label">Mobile data only (MB)</string>
+    <string name="limit_combined_label">Combined Wi-Fi + mobile (MB)</string>
+    <string name="limit_hint">MB per month</string>
+    <string name="limit_name_wifi">Wi-Fi</string>
+    <string name="limit_name_mobile">Mobile</string>
+    <string name="limit_name_combined">Wi-Fi + mobile</string>
+    <string name="limit_line">%1$s: %2$s used · limit %3$s</string>
+    <string name="limit_summary_off">No data limits set</string>
+
+    <!-- Reset stats -->
+    <string name="reset_button">Reset stats</string>
+    <string name="reset_message">Delete all recorded data usage history? This cannot be undone.</string>
+
+    <!-- Bottom sheet options -->
+    <string name="options">Options</string>
+    <string name="hide_lockscreen_notif">Hide lock screen notification</string>
+    <string name="show_updown">Show upload/download speed</string>
+    <string name="speed_units">Speed units</string>
+    <string name="speed_unit_bytes">Bytes (B/s · KB/s · MB/s)</string>
+    <string name="speed_unit_bits">Bits (bit/s · kbit/s · Mbit/s)</string>
+    <string name="speed_unit_bytes_short">Bytes</string>
+    <string name="speed_unit_bits_short">Bits</string>
+    <string name="alerts_off">Off</string>
+
+    <!-- Usage alerts -->
+    <string name="usage_alerts">Set usage alerts</string>
+    <string name="usage_alerts_channel">Usage alerts</string>
+    <string name="alerts_message">Show a notification when data usage within the selected period exceeds the limit. Leave a field empty or 0 to disable the alert.</string>
+    <string name="alert_limit_label">Usage limit (MB)</string>
+    <string name="alert_period_label">Time period (hours)</string>
+    <string name="alerts_value">%1$d MB / %2$d h</string>
+    <string name="alert_notif_title">Usage alert</string>
+    <string name="alert_notif_text">%1$s used in the last %2$s — limit reached</string>
+    <string name="alert_period_hours">%1$d h</string>
+
+    <!-- Usage chart -->
+    <string name="usage_chart">Usage chart</string>
+    <string name="chart_summary">Total %1$s · Mobile %2$s · WiFi %3$s</string>
+    <string name="chart_average">Daily average: %1$s</string>
+    <string name="chart_empty">No usage recorded in this period</string>
+
+    <!-- Data limit enforcement (automatic disconnection) -->
+    <string name="enforce_limits">Disconnect automatically when the limit is exceeded</string>
+    <string name="enforce_unsupported_note">Direct disconnect is not available on this device — Android does not let apps switch network connections on/off. When a limit is exceeded, the app instead blocks this device\'s internet with a built-in kill switch (VPN), so nothing can keep using data. You\'ll be asked once to allow the VPN.</string>
+    <string name="limit_notif_title">Data limit reached</string>
+    <string name="limit_notif_text">%1$s limit reached — %2$s used of %3$s</string>
+    <string name="limit_disconnected"> Connection turned off automatically.</string>
+    <string name="limit_blocked_vpn"> Internet blocked automatically (built-in kill switch).</string>
+    <string name="limit_disconnect_failed"> Automatic disconnection was not possible on this device — turn it off manually.</string>
+    <string name="limit_hotspot_blocked_vpn"> Hotspot clients\' internet blocked automatically (built-in kill switch); Android does not allow switching the access point itself off.</string>
+    <string name="limit_monitor_hint">Monitoring runs while the speed service runs. Each limit re-arms when its period ends.</string>
+    <string name="hotspot_usage_note">Hotspot counters are hidden from apps on some Android versions (e.g. Android 16); the app then reads the hotspot usage through the system\'s Usage data access. You\'ll be asked once to grant it.</string>
+
+    <!-- Enforcement kill-switch VPN -->
+    <string name="enforce_vpn_channel">Connection enforcement</string>
+    <string name="enforce_vpn_session">NetSpeed Meter limit enforcement</string>
+    <string name="enforce_vpn_notif_title">Internet blocked — data limit reached</string>
+    <string name="enforce_vpn_notif_text">A data limit was exceeded. Internet stays blocked until you tap Restore.</string>
+    <string name="restore_internet">Restore internet</string>
+
+    <!-- Hotspot limit -->
+    <string name="hotspot_limit">Set hotspot limits</string>
+    <string name="hotspot_limit_label">Hotspot usage limit (MB)</string>
+    <string name="hotspot_message">Sends a warning notification when the devices connected to your hotspot use more than the limit within the chosen period. Leave a field empty or 0 to disable it.</string>
+    <string name="hotspot_alert_title">Hotspot data alert</string>
+    <string name="hotspot_alert_text">%1$s used by connected devices in the last %2$s — limit %3$s reached</string>
+    <string name="enforce_hotspot">Turn the hotspot off automatically when the limit is exceeded</string>
+    <string name="enforce_hotspot_note">Automatic hotspot shutdown is not available on this device — Android does not let apps turn the access point on/off directly. When the limit is exceeded, the app cuts the internet for the connected devices with a built-in kill switch (VPN) and also tries the direct stop; the exact result is shown in the notification.</string>
+</resources>

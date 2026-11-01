@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Foreground layer of the adaptive icon: the original arrows, unchanged,
+     scaled into the 66dp safe zone of the 108dp adaptive-icon canvas. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Down arrow (download), same shape/position as the legacy icon -->
+    <path
+        android:fillColor="@color/down_arrow"
+        android:pathData="M36,28 h8 v14 h10 l-14,16 -14,-16 h10 z" />
+
+    <!-- Up arrow (upload) -->
+    <path
+        android:fillColor="@color/up_arrow"
+        android:pathData="M64,80 h8 v-14 h10 l-14,-16 -14,16 h10 z" />
+</vector>
